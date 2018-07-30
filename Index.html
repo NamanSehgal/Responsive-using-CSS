@@ -1,0 +1,77 @@
+<html>
+<head>
+<title>Responsive</title>
+<style>
+div{
+  background-color: grey;
+  width:1520px;
+  height: 200px;
+  font-size: 200px;
+  text-align: center;
+}
+
+aside{
+  background-color: tomato;
+  float:left;
+  font-size: 40px;
+}
+
+section{
+  background-color: blue;
+  float:right;
+  font-size: 40px;
+}
+
+img{
+  width:850px;
+  height:700px;
+  padding-top: 5%;
+}
+
+@media screen and (max-width: 850px) {
+  div{
+    width:100%;
+  }
+  aside{
+    width:100%;
+  }
+
+  section{
+    width:100%;
+  }
+  img{
+    width:100%;
+  }
+}
+
+@media screen and (max-width: 200px) {
+  div{
+    width:100%;
+  }
+  aside{
+    width:100%;
+  }
+
+  section{
+    width:100%;
+  }
+
+  img{
+    width: 100%;
+  }
+}
+</style>
+</head>
+<body>
+  <div>
+    <p>Banner</p>
+  </div>
+  <aside>
+    Left Corner
+  </aside>
+  <section>
+    Right Corner
+  </section>
+  <img src="E:\Shimla\DSC_0009--.jpg">
+</body>
+</html>
